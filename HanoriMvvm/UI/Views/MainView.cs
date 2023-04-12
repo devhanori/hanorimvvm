@@ -11,8 +11,7 @@ namespace HanoriMvvm.UI.Views
     {
         public MainView()
         {
-            InitializeComponent();
-            DataContext = App.Current.Services.GetService<MainViewModel>();
+            this.DataContext = App.Current.Services.GetService<MainViewModel>();
         }
 
         static MainView()

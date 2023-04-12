@@ -1,12 +1,11 @@
 ﻿<Application x:Class="HanoriMvvm.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:HanoriMvvm"
-             StartupUri="\UI\Views\MainView.xaml">
+             xmlns:local="clr-namespace:HanoriMvvm">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="UI/Themes/Main.xaml"/>
+                <ResourceDictionary Source="UI/Themes/MainView.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
