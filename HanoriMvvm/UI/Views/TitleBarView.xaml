@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="HanoriMvvm.UI.Views.TitleBarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:behaviors="clr-namespace:HanoriMvvm.Behaviors">
+    <Grid Style="{StaticResource WIN.BAR}">
+        <!-- #region Title Bar Behaviors-->
+        <ListView Background="Transparent">
+            <b:Interaction.Behaviors>
+                <behaviors:TitleBarBehavior/>
+            </b:Interaction.Behaviors>
+        </ListView>
+        <!-- #endregion -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="_" Command="{Binding MainExitCommand}" Style="{StaticResource TITLEBAR.BUTTON}"  />
+            <Button Content="◱" Command="{Binding MainMiniCommand}" Style="{StaticResource TITLEBAR.BUTTON}" />
+            <Button Content="X" Command="{Binding MainExitCommand}" Style="{StaticResource TITLEBAR.BUTTON}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,26 +1,17 @@
 ﻿using HanoriMvvm.UI.ViewModels;
-using HanoriMvvm.Views;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace HanoriMvvm
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
         public App()
         {
-            Services = ConfigureServices();
-
             this.InitializeComponent();
+            
+            Services = ConfigureServices();
         }
 
         public new static App Current => (App)Application.Current;
@@ -31,8 +22,10 @@ namespace HanoriMvvm
 
             // Services
 
+
             // Viewmodels
             services.AddTransient<MainViewModel>();
+            services.AddTransient<TitleBarViewModel>();
 
             return services.BuildServiceProvider();
         }

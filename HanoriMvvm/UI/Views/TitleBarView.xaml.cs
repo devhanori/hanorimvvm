@@ -1,18 +1,17 @@
 ﻿using HanoriMvvm.UI.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
-using System.Windows;
+using System.Windows.Controls;
 
 namespace HanoriMvvm.UI.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// SystemBar.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainView : Window
+    public partial class TitleBarView : UserControl
     {
-        public MainView()
+        public TitleBarView()
         {
             InitializeComponent();
-            DataContext = App.Current.Services.GetService<MainViewModel>();
         }
     }
 }
