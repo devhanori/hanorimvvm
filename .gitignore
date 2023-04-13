@@ -7,3 +7,10 @@
 /HanoriMvvm.Core/obj
 /HanoriMvvm/obj
 /.vs/hanorimvvm/FileContentIndex
+/HanoriMvvm/bin/Release/net7.0-windows
+/HanoriMvvm.Core/bin/Release/net7.0-windows
+/HanoriMvvm.IoC/obj/Release/net7.0-windows
+/HanoriMvvm.IoC/obj
+/HanoriMvvm.IoC/bin/Release/net7.0-windows
+/HanoriMvvm.Main/bin/Release/net7.0-windows
+/HanoriMvvm.Main/obj

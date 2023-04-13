@@ -1,12 +1,7 @@
-﻿using HanoriMvvm.UI.ViewModels;
-using Microsoft.Extensions.DependencyInjection;
-using System.Windows;
+﻿using System.Windows;
 
-namespace HanoriMvvm.UI.Views
+namespace HanoriMvvm.UI.View
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainView : Window
     {
         static MainView()

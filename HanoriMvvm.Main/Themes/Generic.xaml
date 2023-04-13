@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/HanoriMvvm.Main;component/Themes/View/MainView.xaml"/>
+        <ResourceDictionary Source="/HanoriMvvm.Main;component/Themes/Units/MainMenu.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
