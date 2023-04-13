@@ -14,3 +14,10 @@
 /HanoriMvvm.IoC/bin/Release/net7.0-windows
 /HanoriMvvm.Main/bin/Release/net7.0-windows
 /HanoriMvvm.Main/obj
+/.vs/ProjectEvaluation/hanorimvvm.metadata.v6.1
+/.vs/ProjectEvaluation/hanorimvvm.projects.v6.1
+/HanoriMvvm.Core/obj/HanoriMvvm.Core.csproj.nuget.dgspec.json
+/HanoriMvvm.Core/obj/HanoriMvvm.Core.csproj.nuget.g.props
+/HanoriMvvm.Core/obj/Mvvm.Core.csproj.nuget.dgspec.json
+/.vs/hanorimvvm/DesignTimeBuild/.dtbcache.v2
+/.vs/hanorimvvm/v17
