@@ -21,3 +21,5 @@
 /HanoriMvvm.Core/obj/Mvvm.Core.csproj.nuget.dgspec.json
 /.vs/hanorimvvm/DesignTimeBuild/.dtbcache.v2
 /.vs/hanorimvvm/v17
+/HanoriMvvm.App/obj
+/HanoriMvvm.Service/obj
